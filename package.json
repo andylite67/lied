@@ -1,0 +1,9 @@
+{
+  "name": "lied",
+  "version": "0.0.1",
+  "description": "LIED",
+  "dependencies": {
+    "LiveScript": "1.2.0",
+	"express.io" : "*"
+  }
+}
