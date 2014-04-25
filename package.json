@@ -4,6 +4,7 @@
   "description": "LIED",
   "dependencies": {
     "LiveScript": "1.2.0",
+	"prelude-ls" : "*",
 	"express.io" : "*"
   }
 }

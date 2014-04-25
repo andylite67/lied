@@ -12,7 +12,6 @@ app.io.route 'next_song', (req) ->
 	console.log 'new song' + req.data
 
 app.get '/client.js', (req_,res) ->
-	console.log app.io.sockets.manager.connected
 	res.sendfile __dirname + '/client.js'
 
 app.get '/', (req,res) ->
@@ -20,6 +19,12 @@ app.get '/', (req,res) ->
 
 app.get '/admin', (req,res) ->
 	res.send (app.io.sockets.manager.connected === {})
+
+app.get '/list_songs', (req,res) ->
+	res.send {"test.txt" : "Test Song"}
+
+app.use '/static', exp.static __dirname + '/static'
+app.use '/songs', exp.static __dirname + '/songs' 
 
 console.log 'App running on port 7076'
 app.listen 7076
