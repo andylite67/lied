@@ -21,10 +21,13 @@ app.get '/admin', (req,res) ->
 	res.send (app.io.sockets.manager.connected === {})
 
 app.get '/list_songs', (req,res) ->
-	res.send {"test.txt" : "Test Song"}
+	res.send {
+		"test.txt" : "Befiel du deine Wege",
+		"odietiefe.txt" : "O die Tiefe Liebe Jesu"
+	}
 
 app.use '/static', exp.static __dirname + '/static'
-app.use '/songs', exp.static __dirname + '/songs' 
+app.use '/songs', exp.static __dirname + '/songs'
 
 console.log 'App running on port 7076'
 app.listen 7076

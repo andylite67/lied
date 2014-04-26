@@ -1,25 +1,30 @@
-
 socket = io.connect()
-admin = false
 _ = require 'prelude-ls'
-var song
 
-$.get '/admin', (resp) ->
-	if resp == true
-		console.log "you are admin!"
-		admin := true
-		initSongSelect()
+var song
+$ '#select_area' .hide!
 
 socket.on 'new_pos',(data) ->
-	console.log data
+	showSongPart data
 
 socket.on 'new_song', (data) ->
-	console.log data
-	$.get '/songs/'+data, (data) ->
-		#$ '#song_area' .append data
-		song := data
+	loadSong data
+
+loadSong = (name) ->
+	$.get '/songs/'+name, (text) ->
+		song := parseSongText text
+		showSongPart 0
+
+showSongPart = (pos) ->
+	$ '#song_area' .empty!
+	$ '#song_area' .append _.at pos, song
+
+parseSongText = (text) ->
+	verse = _.split '\n\n\n' text
+	_.flatten _.map (_.split '\n\n'), verse
 
 initSongSelect = ->
+	$ '#select_area' .show!
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
 			"<li value=><a href='' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
@@ -30,7 +35,11 @@ initSongSelect = ->
 
 		$ 'a' .click  (event) ->
 			event.preventDefault()
-			socket.emit 'next_song', event.target.id
+			songName = event.target.id
+			socket.emit 'next_song', songName
+			loadSong songName
 
 if window.location.hash.substring(1) == "admin"
 	initSongSelect()
+
+
