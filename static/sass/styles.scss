@@ -1,0 +1,11 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+#song_area {
+	white-space: pre;
+	display: block;
+	width: 100%;
+	height: 200px;
+	margin: 3px;
+}

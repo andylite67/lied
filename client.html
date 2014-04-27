@@ -7,13 +7,19 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
+		<link href="/static/stylesheets/styles.css" rel="stylesheet" type="text/css" />
 		<script src="/static/jquery-1.11.0.min.js"></script>
 		<script src="/static/jquery.fastLiveFilter.js"></script>
+		<script src="/static/quo.js"></script>
+		<script src="/static/jquery.textfill.min.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
 		<script src="/static/prelude-browser-min.js"></script>
 	</head>
 	<body>
-		<div id="song_area"></div>
+		<div class="panel panel-default">
+  			<div class="panel-body" id='song_area'>
+  			</div>
+		</div>
 		<div id="select_area">
 			<input id="search_input" placeholder="Type to filter">
 			<ul id="search_list">
