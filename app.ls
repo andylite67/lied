@@ -29,5 +29,5 @@ app.get '/list_songs', (req,res) ->
 app.use '/static', exp.static __dirname + '/static'
 app.use '/songs', exp.static __dirname + '/songs'
 
-console.log 'App running on port 7076'
-app.listen 7076
+console.log 'App running on port 80'
+app.listen 80
