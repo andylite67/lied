@@ -12,7 +12,7 @@ socket.on 'new_song', (data) ->
 	loadSong data
 
 loadSong = (name) ->
-	$.get '/songs/'+name, (text) ->
+	$.get '/songs/'+name+"/text.txt", (text) ->
 		song := parseSongText text
 		showSongPart 0
 

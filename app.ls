@@ -21,10 +21,7 @@ app.get '/admin', (req,res) ->
 	res.send (app.io.sockets.manager.connected === {})
 
 app.get '/list_songs', (req,res) ->
-	res.send {
-		"test.txt" : "Befiel du deine Wege",
-		"odietiefe.txt" : "O die Tiefe Liebe Jesu"
-	}
+	res.sendfile __dirname + '/songs/database.json'
 
 app.use '/static', exp.static __dirname + '/static'
 app.use '/songs', exp.static __dirname + '/songs'
