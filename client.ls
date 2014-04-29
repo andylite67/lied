@@ -3,6 +3,9 @@ _ = require 'prelude-ls'
 
 var song
 var song_pos
+var song_name
+text_type = "text.txt"
+
 $ '#select_area' .hide!
 
 socket.on 'new_pos', (data) ->
@@ -12,14 +15,17 @@ socket.on 'new_song', (data) ->
 	loadSong data
 
 loadSong = (name) ->
-	$.get '/songs/'+name+"/text.txt", (text) ->
+	song_name := name
+	$.get '/songs/'+name+'/'+text_type, (text) ->
 		song := parseSongText text
 		showSongPart 0
 
 showSongPart = (pos) ->
+	/*if song.length < (pos - 1)
+		$ '#song_area' .empty!
+		return */
 	song_pos := pos
 	$ '#song_area' .empty!
-	
 	$ '#song_area' .append "<span>" + (_.at pos, song) + "</span>"
 	$ '#song_area'  .textfill!
 
@@ -35,17 +41,15 @@ initSongSelect = ->
 		lis = _.map liSong, (_.obj-to-pairs resp)
 		con =  _.fold (+), "", lis
 		$ '#search_list'  .append con
-		$ '#search_input' .fastLiveFilter '#search_list'
+		$ '#search_input' .fastLiveFilter '#search_list', {maxFontSize: 70}
 
 		$ 'a' .click  (event) ->
 			event.preventDefault()
 			songName = event.target.id
 			socket.emit 'next_song', songName
-			loadSong songName
 
 	move = (count) ->
 		socket.emit 'next_pos', song_pos + count
-		showSongPart song_pos + count
 
 	$$ '#song_area'  .tap ->
 		move (1)
@@ -55,6 +59,13 @@ initSongSelect = ->
 		move (1)
 
 if window.location.hash.substring(1) == "admin"
-	initSongSelect()
+	initSongSelect!
 
+$ '#text_type button' .click ->
+	text_type := $ this .val!
+	my_song_pos = ^^song_pos#todo: does not work
+	loadSong song_name
+	showSongPart my_song_pos
 
+	$ '#text_type button' .removeClass 'active'
+	$ this .addClass 'active'

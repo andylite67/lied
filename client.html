@@ -15,15 +15,27 @@
 		<script src="/socket.io/socket.io.js"></script>
 		<script src="/static/prelude-browser-min.js"></script>
 	</head>
-	<body>
-		<div class="panel panel-default">
-  			<div class="panel-body" id='song_area'>
-  			</div>
+	<body class="container">
+		<div class="row">
+			<div class="panel panel-default">
+				<div class="panel-body" id='song_area'>
+					Anmeldung erfolgreich.
+				</div>
+			</div>
+    	</div>
+		<div class="row">
+			<div id="text_type" class="btn-group" data-toggle-name="text_type" data-toggle="buttons-radio">
+				<button type="button" value="text.txt" data-toggle="button" class="btn active">Text</button>
+				<button type="button" value="noten.txt" data-toggle="button" class="btn">Noten</button>
+			</div>
 		</div>
-		<div id="select_area">
-			<input id="search_input" placeholder="Type to filter">
-			<ul id="search_list">
-			</ul>
+
+		<div class="row">
+			<div id="select_area">
+				<input id="search_input" placeholder="Type to filter">
+				<ul id="search_list">
+				</ul>
+			</div>
 		</div>
 		<script src="/client.js"></script>
 	</body>

@@ -7896,6 +7896,23 @@ button.close {
   white-space: pre;
   display: block;
   width: 100%;
-  height: 200px;
+  height: 100%;
   margin: 3px;
+  font-family: monospace;
+}
+
+/* line 14, ../sass/styles.scss */
+#search_list {
+  padding: 10px;
+  margin-top: 5px;
+}
+/* line 17, ../sass/styles.scss */
+#search_list li {
+  padding: 4px;
+  font-size: 16px;
+}
+
+/* line 23, ../sass/styles.scss */
+#text_type {
+  padding: 10px;
 }
