@@ -1,1 +1,1 @@
-sudo lsc app.ls
+sudo lsc /home/pi/lied/app.ls
