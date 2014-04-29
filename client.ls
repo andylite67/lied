@@ -26,8 +26,8 @@ showSongPart = (pos) ->
 		return */
 	song_pos := pos
 	$ '#song_area' .empty!
-	$ '#song_area' .append "<span>" + (_.at pos, song) + "</span>"
-	$ '#song_area'  .textfill!
+	$ '#song_area' .append "<span>" + (_.at pos, song) + "</span>" #span because of textfill
+	$ '#song_area' .textfill!
 
 parseSongText = (text) ->
 	verse = _.split '\n\n\n' text
