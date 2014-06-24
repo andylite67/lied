@@ -59,6 +59,14 @@ initSongSelect = ->
 	$$ '#song_area' .swipeRight ->
 		move (1)
 
+	$ element .keydown (ev) ->
+	    if ev.which == $.ui.keyCode.RIGHT)
+			move (1)
+			ev.preventDefault();
+		if ev.which == $.ui.keyCode.LEFT)
+			move (-1)
+			ev.preventDefault();
+
 initSongRecommend = ->
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
