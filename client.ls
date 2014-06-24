@@ -59,7 +59,7 @@ initSongSelect = ->
 	$$ '#song_area' .swipeRight ->
 		move (1)
 
-initSongRecommend ->
+initSongRecommend = ->
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
 			"<li value=>"+(_.last item) + "</li>"
