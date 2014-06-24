@@ -59,7 +59,7 @@ initSongSelect = ->
 	$$ '#song_area' .swipeRight ->
 		move (1)
 
-	$ element .keydown (ev) ->
+	$ '#song_area' .keydown (ev) ->
 	    if ev.which == $.ui.keyCode.RIGHT)
 			move (1)
 			ev.preventDefault();
