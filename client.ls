@@ -71,8 +71,8 @@ initSongRecommend = ->
 # load admin view
 if window.location.hash.substring(1) == "admin"
 	initSongSelect!
-
-initSongRecommend!
+else
+	initSongRecommend!
 
 $ '#text_type button' .click ->
 	text_type := $ this .val!
