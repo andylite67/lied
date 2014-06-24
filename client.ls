@@ -60,12 +60,12 @@ initSongSelect = ->
 		move (1)
 
 	$ '#song_area' .keydown (ev) ->
-	    if ev.which == $.ui.keyCode.RIGHT)
+	    if ev.which == $.ui.keyCode.RIGHT
 			move (1)
-			ev.preventDefault();
-		if ev.which == $.ui.keyCode.LEFT)
+			ev.preventDefault()
+		if ev.which == $.ui.keyCode.LEFT
 			move (-1)
-			ev.preventDefault();
+			ev.preventDefault()
 
 initSongRecommend = ->
 	$.get '/list_songs', (resp) ->
