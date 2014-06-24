@@ -6,14 +6,14 @@ var song_pos
 var song_name
 text_type = "text.txt"
 
-$ '#select_area' .hide!
-
+# events to listens
 socket.on 'new_pos', (data) ->
 	showSongPart data
 
 socket.on 'new_song', (data) ->
 	loadSong data
 
+# common song show system
 loadSong = (name) ->
 	song_name := name
 	$.get '/songs/'+name+'/'+text_type, (text) ->
@@ -33,8 +33,9 @@ parseSongText = (text) ->
 	verse = _.split '\n\n\n' text
 	_.flatten _.map (_.split '\n\n'), verse
 
+#show admin song select
 initSongSelect = ->
-	$ '#select_area' .show!
+	#$ '#select_area' .show!
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
 			"<li value=><a href='' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
@@ -58,8 +59,20 @@ initSongSelect = ->
 	$$ '#song_area' .swipeRight ->
 		move (1)
 
+initSongRecommend ->
+	$.get '/list_songs', (resp) ->
+		liSong = (item) ->
+			"<li value=>"+(_.last item) + "</li>"
+		lis = _.map liSong, (_.obj-to-pairs resp)
+		con =  _.fold (+), "", lis
+		$ '#search_list'  .append con
+		$ '#search_input' .fastLiveFilter '#search_list', {maxFontSize: 70}
+
+# load admin view
 if window.location.hash.substring(1) == "admin"
 	initSongSelect!
+
+initSongRecommend!
 
 $ '#text_type button' .click ->
 	text_type := $ this .val!
