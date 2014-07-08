@@ -25,9 +25,13 @@ showSongPart = (pos) ->
 		$ '#song_area' .empty!
 		return */
 	song_pos := pos
+	showText (_.at pos, song)
+
+showText = (text) ->
 	$ '#song_area' .empty!
-	$ '#song_area' .append "<span>" + (_.at pos, song) + "</span>" #span because of textfill
+	$ '#song_area' .append "<span>" + text + "</span>" #span because of textfill
 	$ '#song_area' .textfill!
+
 
 parseSongText = (text) ->
 	verse = _.split '\n\n\n' text
@@ -92,6 +96,14 @@ if window.location.hash.substring(1) == "admin"
 	initSongSelect!
 else
 	initSongRecommend!
+
+$ window .load ->
+	showText "Lasst uns singen dem HERRN zur Ehre!<br />
+	<br />
+	Das Wort des des Christus wohne reichlich in euch; <br />
+	in aller Weisheit lehrt und ermahnt euch gegenseitig!<br />
+	Mit Psalmen, Lobliedern und geistlichen Lieder <br />
+	sing Gott in euren Herzen in Gnade (Kol 3:16)"
 
 $ '#text_type button' .click ->
 	text_type := $ this .val!
