@@ -13,6 +13,9 @@ socket.on 'new_pos', (data) ->
 socket.on 'new_song', (data) ->
 	loadSong data
 
+socket.on 'suggested_song', (data)
+	$ 'a#'+data.id .append "!"
+
 # common song show system
 loadSong = (name) ->
 	song_name := name
@@ -38,7 +41,7 @@ initSongSelect = ->
 	#$ '#select_area' .show!
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
-			"<li value=><a href='' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
+			"<li value=><a href='#' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
 		lis = _.map liSong, (_.obj-to-pairs resp)
 		con =  _.fold (+), "", lis
 		$ '#search_list'  .append con
@@ -67,7 +70,11 @@ initSongSelect = ->
 initSongRecommend = ->
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
-			"<li value=>"+(_.last item) + "</li>"
+			"<li value=><a href='#' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
+		$ 'a' .click  (event) ->
+			event.preventDefault()
+			socket.emit 'suggest_song', event.target.id
+
 		lis = _.map liSong, (_.obj-to-pairs resp)
 		con =  _.fold (+), "", lis
 		$ '#search_list'  .append con

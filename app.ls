@@ -8,6 +8,9 @@ app.io.route 'next_pos',  (req) ->
 app.io.route 'next_song', (req) ->
 	app.io.broadcast 'new_song', req.data
 
+app.io.route 'suggest_song', (req) ->
+	app.io.broadcast 'suggested_song', req.data
+
 app.get '/client.js', (req_,res) ->
 	res.sendfile __dirname + '/client.js'
 
