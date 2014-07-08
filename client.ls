@@ -13,9 +13,6 @@ socket.on 'new_pos', (data) ->
 socket.on 'new_song', (data) ->
 	loadSong data
 
-socket.on 'suggested_song', (data)
-	$ 'a#'+data.id .append "!"
-
 # common song show system
 loadSong = (name) ->
 	song_name := name
@@ -67,18 +64,28 @@ initSongSelect = ->
 			move (1)
 			ev.preventDefault()
 
+	# show suggestions
+	socket.on 'suggested_song', (data) ->
+		songLink = $ ('a#'+data)
+		songLink .append "☆"
+
+
 initSongRecommend = ->
 	$.get '/list_songs', (resp) ->
 		liSong = (item) ->
-			"<li value=><a href='#' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
-		$ 'a' .click  (event) ->
-			event.preventDefault()
-			socket.emit 'suggest_song', event.target.id
+			"<li value=><a class='suggest' href='' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
 
 		lis = _.map liSong, (_.obj-to-pairs resp)
 		con =  _.fold (+), "", lis
 		$ '#search_list'  .append con
 		$ '#search_input' .fastLiveFilter '#search_list', {maxFontSize: 70}
+
+		$ 'a' .click  (event) ->
+			event.preventDefault()
+			sN = event.target.id
+			console.log sN
+			socket.emit 'suggest_song', sN
+
 
 # load admin view
 if window.location.hash.substring(1) == "admin"
