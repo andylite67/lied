@@ -4,27 +4,33 @@ _ = require 'prelude-ls'
 var song
 var song_pos
 var song_name
+
+isAdmin = window.location.hash.substring(1) == "admin"
+
 text_type = "text.txt"
 
 # events to listens
 socket.on 'new_pos', (data) ->
-	showSongPart data
+	if data[0] != song_name
+		loadSong data[0], data[1]
+	else
+		showSongPart data[1]
 
-socket.on 'new_song', (data) ->
-	loadSong data
 
-# common song show system
-loadSong = (name) ->
+loadSong = (name, pos) ->
+	pos = pos || 0
 	song_name := name
-	$.get '/songs/'+name+'/'+text_type, (text) ->
+	$.get '/songs/' + name + '/' + text_type, (text) ->
 		song := parseSongText text
 		showSongPart 0
 
 showSongPart = (pos) ->
+	console.log "showSongPart: " + pos
 	/*if song.length < (pos - 1)
 		$ '#song_area' .empty!
 		return */
 	song_pos := pos
+	console.log "song" + song
 	showText (_.at pos, song)
 
 showText = (text) ->
@@ -32,10 +38,7 @@ showText = (text) ->
 	$ '#song_area' .append "<span>" + text + "</span>" #span because of textfill
 	$ '#song_area' .textfill!
 
-
-parseSongText = (text) ->
-	verse = _.split '\n\n\n' text
-	_.flatten _.map (_.split '\n\n'), verse
+parseSongText = (_.split '\n\n\n' _) |> (_.map (_.split '\n\n')) |> _.flatten
 
 #show admin song select
 initSongSelect = ->
@@ -51,10 +54,10 @@ initSongSelect = ->
 		$ 'a' .click  (event) ->
 			event.preventDefault()
 			songName = event.target.id
-			socket.emit 'next_song', songName
+			emitSong songName, 0
 
 	move = (count) ->
-		socket.emit 'next_pos', song_pos + count
+		emitSong song_name, song_pos+count
 
 	$$ '#song_area'  .tap ->
 		move (1)
@@ -73,29 +76,11 @@ initSongSelect = ->
 		songLink = $ ('a#'+data)
 		songLink .append "☆"
 
-
-initSongRecommend = ->
-	$.get '/list_songs', (resp) ->
-		liSong = (item) ->
-			"<li value=><a class='suggest' href='' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
-
-		lis = _.map liSong, (_.obj-to-pairs resp)
-		con =  _.fold (+), "", lis
-		$ '#search_list'  .append con
-		$ '#search_input' .fastLiveFilter '#search_list', {maxFontSize: 70}
-
-		$ 'a' .click  (event) ->
-			event.preventDefault()
-			sN = event.target.id
-			console.log sN
-			socket.emit 'suggest_song', sN
-
+emitSong = (song, pos) ->
+	socket.emit 'next_pos', [song, pos]
 
 # load admin view
-if window.location.hash.substring(1) == "admin"
-	initSongSelect!
-else
-	initSongRecommend!
+initSongSelect!
 
 $ window .load ->
 	showText "Lasst uns singen dem HERRN zur Ehre!<br />

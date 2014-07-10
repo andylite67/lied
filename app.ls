@@ -5,9 +5,6 @@ app.http().io()
 app.io.route 'next_pos',  (req) ->
 	app.io.broadcast 'new_pos', req.data
 
-app.io.route 'next_song', (req) ->
-	app.io.broadcast 'new_song', req.data
-
 app.io.route 'suggest_song', (req) ->
 	console.log req.data
 	app.io.broadcast 'suggested_song', req.data
