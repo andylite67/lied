@@ -1,8 +1,670 @@
 {"AllesWillIch":"Alles will ich Herr verlassen",
 "KommDuQuelle":"Komm du Quelle alles Segens",
 "DeinWort":"Dein Wort ist ein Licht auf meine Weg",
+"AboveAll":"Above all",
 "ChristusLebt":"Alles will ich Herr verlassen",
+"AgnusDei":"Agnus Dei",
 "WelcheLiebe":"Welche Liebe, Welche Güte",
 "BleibendIstDeineTreu":"Bleibend ist deine Treu",
 "SeligstWissen":"Seligstes Wissen Jesus ist mein",
-"WennFriede":"Wenn Friede meine Seele durchdringt"}
+"WennFriede":"Wenn Friede meine Seele durchdringt",
+"ANewCommandment":"A new commandment",
+"AberDasIstMeineFreude":"Aber das ist meine Freude",
+"AchWoFindIchJesumNun":"Ach, wo find' ich Jesum nun",
+"AllDieFuelleIstInDir":"All die Fülle ist in dir",
+"AlleGutenGaben":"Alle guten Gaben",
+"AlleinDeineGnadeGenuegt":"Allein deine Gnade genügt",
+"AllesHatErMirErlassen":"Alles hat er mir erlassen",
+"AllesIstBezahltJesusStarbFuerMich":"Alles ist bezahlt (Jesus starb für mich)",
+"AllesWillIchHerrVerlassen":"Alles will ich Herr verlassen",
+"AllesWillIchJesusWeihen":"Alles will ich Jesus weihen",
+"AmazingGrace":"Amazing Grace",
+"AnJesuHand":"An Jesu Hand",
+"AnMeinemKreuz":"An meinem Kreuz",
+"AuchDieKleinenBoesenDinge":"Auch die kleinen bösen Dinge",
+"AuchHeuteTutGottFuerUnsWunder":"Auch heute tut Gott für uns Wunder",
+"AufDeinenRufOHerr":"Auf Deinen Ruf, o Herr",
+"AufDemLammRuhtMeineSeele":"Auf dem Lamm ruht meine Seele",
+"AusDemHimmelAufDieErde":"Aus dem Himmel auf die Erde",
+"AusLiebe":"Aus Liebe",
+"BaldSchonKannEsSein":"Bald schon kann es sein",
+"BaueDeinReichDurchUns":"Baue Dein Reich durch uns",
+"BeThouMyVision":"Be thou my vision",
+"BeautifulOne":"Beautiful One",
+"BefiehlDuDeineWege":"Befiehl du deine Wege",
+"BelebDeinWerk":"Beleb dein Werk",
+"BetterIsOneDay":"Better is one day",
+"BisAnsEndeDerWelt":"Bis ans Ende der Welt",
+"BistDuAufErdenGarOftAllein":"Bist du auf Erden gar oft allein",
+"BistDuMuedeTraeumenNachzujagen":"Bist du müde, Träumen nachzujagen",
+"BlessedBeYourName":"Blessed be your name",
+"BruederAufZuDemWerk":"Brüder, auf zu dem Werk",
+"CallOnYourName":"Call on your name",
+"ChangeMyHeart":"Change my heart",
+"ComeOnRejoice":"Come on, rejoice",
+"Cool":"Cool",
+"CreateInMeACleanHeart":"Create in me a clean heart",
+"DaKannManNurStaunen":"Da kann man nur staunen",
+"DankSeiDir":"Dank sei dir",
+"DankeFuerDiesenGutenMorgen":"Danke für diesen guten Morgen",
+"DankeHerrFuerDiesenTag":"Danke, Herr, für diesen Tag",
+"DankeHerrJesus":"Danke, Herr Jesus",
+"DankeJesus":"Danke Jesus",
+"DankeMeinVater":"Danke, mein Vater",
+"DankeVaterFuerDasLeben":"Danke Vater für das Leben",
+"DanktDemHerrn":"Dankt dem Herrn",
+"DarumJubelIchDirZu":"Darum jubel ich dir zu",
+"DasDuMichEinstimmenLaesst":"Das du mich einstimmen lässt",
+"DasFischleinInDemWasser":"Das Fischlein in dem Wasser",
+"DasGrabIstLeer":"Das Grab ist leer",
+"DasHoechsteMeinesLebens":"Das Höchste meines Lebens",
+"DasIstUnserFlehN":"Das ist unser Fleh'n",
+"DasLebenGleichtDemSommertag":"Das Leben gleicht dem Sommertag",
+"DasLichtAusDerHoehe":"Das Licht aus der Höhe",
+"DasSchoensteLied":"Das schönste Lied",
+"DasWichtigsteBuch":"Das wichtigste Buch",
+"DasWortDesHerrnIstWahrhaftig":"Das Wort des Herrn ist wahrhaftig",
+"DassDeinWort":"Dass dein Wort",
+"DassDeinWortInMeinenHerzen":"Dass dein Wort in meinen Herzen",
+"DassDuMichEinstimmenLaesst":"Dass du mich einstimmen lässt",
+"DassWirInDirBleiben":"Dass wir in dir bleiben",
+"DayByDay":"Day by Day",
+"DeinenNamenWillIchPreisen":"Deinen Namen will ich preisen",
+"DemHeiligenGeiste":"Dem Heiligen Geiste",
+"DennBeiDirIstDieQuelleDesLebens":"Denn bei dir ist die Quelle des  Lebens",
+"DennDuBistGross":"Denn du bist groß",
+"DennEsIstWeihnachtszeit":"Denn es ist Weihnachtszeit",
+"DennIchBinGewiss":"Denn ich bin gewiss",
+"DerGrundUnsrerDankbarkeit":"Der Grund unsrer Dankbarkeit",
+"DerHeilandIstGeboren":"Der Heiland ist geboren",
+"DerHerrDenktAnUns":"Der Herr denkt an uns",
+"DerHimmelStehtOffen":"Der Himmel steht offen",
+"DerNameJesu":"Der Name Jesu",
+"DerSternErstrahlt":"Der Stern erstrahlt",
+"DerTagVergeht":"Der Tag vergeht",
+"DieAufDenHerrnHarren":"Die auf den Herrn harren",
+"DieBibelIstEinKoestlichBuch":"Die Bibel ist ein köstlich Buch",
+"DieFreudeGehtMitUns":"Die Freude geht mit uns",
+"DieGottLieben":"Die Gott lieben",
+"DieGueteDesHerrn":"Die Güte des Herrn",
+"DieGueteDesHerrnHatKeinEnde":"Die Güte des Herrn hat kein Ende",
+"DieHirtenDieWarenImFelde":"Die Hirten die waren im Felde",
+"DieKircheStehtGegruendet":"Die Kirche steht gegründet",
+"DieMitTraenenSaeen":"Die mit Tränen säen",
+"DieMoewenSieFliegen":"Die Möwen, sie fliegen",
+"DieSonneDieErdeDieWolken":"Die Sonne, die Erde, die Wolken",
+"DiesIstDerTag":"Dies ist der Tag",
+"DirAllein":"Dir allein",
+"DirFehltWohlNochDerFriede":"Dir fehlt wohl noch der Friede?",
+"DirGebuehrtDieEhre":"Dir gebührt die Ehre",
+"DortAufGolgathaStand":"Dort auf Golgatha stand",
+"DortInDemGartenGethsemane":"Dort in dem Garten Gethsemane",
+"DuAllein":"Du allein",
+"DuBistDasLichtDerWelt":"Du bist das Licht der Welt",
+"DuBistDerErste":"Du bist der Erste",
+"DuBistDerHerr":"Du bist der Herr",
+"DuBistDerHoechste":"Du bist der Höchste",
+"DuBistDerSchoepfer":"Du bist der Schöpfer",
+"DuBistDerWegUndDieWahrheitUndDasLeben":"Du bist der Weg",
+"DuBistErhoben":"Du bist erhoben",
+"DuBistEsHerr":"Du bist es, Herr",
+"DuBistMeinGottMeinVater":"Du bist mein Gott, mein Vater",
+"DuBistMeinZielMeinGott":"Du bist mein Ziel, mein Gott",
+"DuBistUnsreZuversicht":"Du bist unsre Zuversicht",
+"DuBistWuerdig":"Du bist würdig",
+"DuBleibstAnMeinerSeite":"Du bleibst an meiner Seite",
+"DuGibstDasLeben":"Du gibst das Leben",
+"DuGrosserGott":"Du groÃer Gott",
+"DuMeinHeilGerGott":"Du, mein heil'ger Gott",
+"DuMeinesLebensLeben":"Du, meines Lebens Leben",
+"DuSagstJa":"Du sagst ja",
+"DuSiehstDieWunden":"Du siehst die Wunden",
+"DuSollstNichtMuedeWerden":"Du sollst nicht müde werden",
+"EgalWasKommt":"Egal, was kommt",
+"EhreMachtUndStaerke":"Ehre, Macht, und Stärke",
+"EhreSeiDemVater":"Ehre sei dem Vater",
+"EinFesteBurgIstUnserGott":"Ein feste Burg ist unser Gott",
+"EinJederTrageDieLastDesAndern":"Ein jeder trage die Last des andern",
+"EinLebenFuerGott":"Ein Leben für Gott",
+"EinLebenNur":"Ein Leben nur",
+"EinNeuGebot":"Ein neu Gebot",
+"EinNeuerTagBeginnt":"Ein neuer Tag beginnt",
+"EineHeimat":"Eine Heimat",
+"EineHeimatErwartetUnsDroben":"Eine Heimat erwartet uns droben",
+"EinenGlueckwunschZumGeburtstag":"Einen Glückwunsch zum Geburtstag",
+"EinesIstGanzSicher":"Eines ist ganz sicher",
+"ElShaddai":"ElShaddai",
+"EndlichWiederSonntag":"Endlich wieder Sonntag",
+"EngelBringenFroheKunde":"Engel bringen frohe Kunde",
+"ErBrachDasBrot":"Er brach das Brot",
+"ErHoertDeinGebet":"Er hört dein Gebet",
+"ErIstDerErloeser":"Er ist der Erlöser",
+"ErIstHerr":"Er ist Herr",
+"ErIstLinksErIstRechts":"Er ist links, er ist rechts",
+"ErLebt":"Er lebt",
+"ErLebt!ErLebtDerSiegesheld":"Er lebt! Er lebt, der Siegesheld",
+"ErWeissMeinVaterDrobenWeiss":"Er weiß, mein Vater droben weiß",
+"ErwaehletEuchHeute":"Erwählet euch heute",
+"EsEiltDieZeit":"Es eilt die Zeit",
+"EsErglaenztUns":"Es erglänzt uns",
+"EsGehtOhneGottInDieDunkelheit":"Es geht ohne Gott...",
+"EsGibtEinenGott":"Es gibt einen Gott",
+"EsIstEinBorn":"Es ist ein Born",
+"EsIstNiemandZuGross":"Es ist niemand zu groß",
+"EsIstNochRaum":"Es ist noch Raum",
+"EsIstSchonLangeHer":"Es ist schon lange her",
+"EsIstVollbracht":"Es ist Vollbracht",
+"EsLebeGottAlleinInMir":"Es lebe Gott allein in mir",
+"EsSchautBeiNachtUndTage":"Es schaut bei Nacht und Tage",
+"EsWarNachtInBethlehem":"Es war Nacht in Bethlehem",
+"FalltVorIhmNieder":"Fallt vor ihm nieder",
+"FangMitMirVonVorneAn":"Fang mit mir von vorne an",
+"FearNot":"Fear not",
+"FelsDesHeils":"Fels des Heils",
+"FelsenfestUndStarkIstMeinGott":"Felsenfest und stark ist mein Gott",
+"FestUndTreuWieDanielWar":"Fest und treu, wie Daniel war",
+"FolgeNiemalsDemRat":"Folge niemals dem Rat",
+"Folgen":"Folgen",
+"FreiVonDemGesetz":"Frei von dem Gesetz",
+"FreiWieEinVogel":"Frei Wie Ein Vogel",
+"FreiWieEinVogelImWind":"Frei wie ein Vogel im Wind",
+"FreudeGrosseFreude":"Freude, große Freude",
+"FreudeIstImHimmel":"Freude ist im Himmel",
+"FreudeStecktAnFreudeTutGut":"Freude steckt an. Freude tut gut",
+"FreueDichWelt":"Freue dich Welt",
+"FreuetEuchAllezeit":"Freuet euch allezeit",
+"FreuetEuchDerSchoenenErde":"Freuet euch der schönen Erde",
+"FreundWarumSoVieleSorgen":"Freund, warum so viele Sorgen",
+"FriedeFriedeFriedeSeiMitDir":"Friede, Friede, Friede sei mit dir",
+"FriedeMitEuch":"Friede mit euch",
+"FrischUndFroehlich":"Frisch und fröhlich",
+"FroehlichFroehlichIstDasVolk":"Fröhlich, fröhlich ist das Volk",
+"FrohUndMutig":"Froh und mutig",
+"FuerGottesWort":"Für Gottes Wort",
+"FuerMichGingstDuNachGolgatha":"Für mich gingst du nach Golgatha",
+"FuerSpeisUndTrank":"Für Speis und Trank",
+"FuerchteDichNicht":"Fürchte dich nicht",
+"FuerchteDichNichtLaenger":"Fürchte dich nicht länger",
+"FuerchtetEuchNicht":"Fürchtet euch nicht",
+"FuerchtetEuchNichtMehr":"Fürchtet euch nicht mehr",
+"FuerchtetIhrDesFeindesWildeUebermacht":"Fürchtet ihr des Feindes",
+"Gebet":"Gebet",
+"GehAbrahamGeh":"Geh, Abraham, geh",
+"GehAufDeinemWeg":"Geh auf deinem Weg",
+"GehUnterDerGnade":"Geh unter der Gnade",
+"GeistDesGlaubens":"Geist des Glaubens",
+"GesternHeuteUndFuerImmer":"Gestern, heute und für immer",
+"GibGottDieEhre":"Gib Gott die Ehre",
+"GibMirDieRichtigenWorte":"Gib mir die richtigen Worte",
+"GibMirLiebeInsHerz":"Gib mir Liebe ins Herz",
+"GiesseDeineLiebeAus":"Gieße deine Liebe aus",
+"GiveMeJesus":"Give me Jesus",
+"GlaubeEinfachJedenTag":"Glaube einfach jeden Tag",
+"GnadeDieJesusUnsZugewandt":"Gnade, die Jesus uns zugewandt",
+"GnadeMussEsSein":"Gnade muß es sein",
+"GodIsGoodAllTheTime":"God is good all the time",
+"GodOfWonders":"God of Wonders",
+"Golgatha":"Golgatha",
+"GotAReason":"Got a reason",
+"GottBrauchtNichtNurGrosseLeute":"Gott braucht nicht nur große Leute",
+"GottDuSchufstDieseWelt":"Gott du schufst diese Welt",
+"GottHatMichWunderschoenGeschaffen":"Gott hat mich wunderschön geschaffen",
+"GottHatUnsreErdeSchoenGemacht":"Gott hat unsre Erde schön gemacht",
+"GottIstDieLiebe":"Gott ist die Liebe",
+"GottIstGegenwaertig":"Gott ist gegenwärtig",
+"GottIstGuetig":"Gott ist gütig",
+"GottIstGutErHatDichLieb":"Gott ist gut, er hat dich lieb",
+"GottIstImmerNochGott":"Gott ist immer noch Gott.",
+"GottIstMeinHort":"Gott ist mein Hort",
+"GottIstSoGut":"Gott ist so gut",
+"GottKenntKeineLuegen":"Gott kennt keine Lügen",
+"GottMeinHerrEsIstMirErnst":"Gott, mein Herr, es ist mir ernst",
+"GottSegneDich":"Gott segne dich",
+"GottSeiDankFuerSeineGnadefuelle":"Gott sei Dank für seine Gnadefülle",
+"GottSprichtMitDir":"Gott spricht mit dir",
+"GottWeissImmerEinenWeg":"Gott weiß immer einen Weg",
+"GottWirdDichTragen":"Gott wird dich tragen",
+"GottWurdeArmFuerUns":"Gott wurde arm für uns",
+"GottZeigtMirDenWeg":"Gott zeigt mir den Weg",
+"GottesLiebeIstSoWunderbar":"Gottes Liebe ist so wunderbar",
+"GottesLiebeIstWieDieSonne":"Gottes Liebe ist wie die Sonne",
+"GottesLiebeSieHatKeineGrenzen":"Gottes Liebe, sie hat keine Grenzen",
+"GottesSegen":"Gottes Segen",
+"GottesSegenSeiMitEuch":"Gottes Segen sei mit euch",
+"GottesWege":"Gottes Wege",
+"GottesWortIstDieWahrheit":"Gottes Wort ist die Wahrheit",
+"GreatIsTheLord":"Great is the Lord",
+"GrossBistDuHerr":"Groß bist du, Herr",
+"GrossIstDeinName":"Groß ist dein Name",
+"GrossIstDerHerr":"Groß ist der Herr",
+"GrossIstUnserGott":"Groß ist unser Gott",
+"GrossUndWunderbarIstDerName":"Groß und wunderbar ist der Name",
+"GrosserGottWirLobenDich":"GroÃer Gott",
+"GrosserHerrlicherGott":"Großer, herrlicher Gott",
+"GutDassWirEinanderHaben":"Gut, dass wir...",
+"HabKeineAngst":"Hab keine Angst",
+"Halleluja!LobetGott":"Halleluja! Lobet Gott",
+"HallelujaSchoenerMorgen":"Halleluja, schöner Morgen",
+"HalteMich":"Halte mich",
+"HandInHandMitJesu":"Hand in Hand mit Jesu",
+"HardTimes":"Hard Times",
+"HastDuDenRechtenKurs":"Hast du den rechten Kurs",
+"HastDuHeuteSchonDankeGesagt":"Hast du heute schon danke gesagt",
+"HastDuJesu":"Hast du Jesu Ruf vernommen",
+"HastDuKeinenRaumFuerJesum":"Hast du keinen Raum für Jesum?",
+"HastDuSchonEmpfangen":"Hast du schon empfangen",
+"HeIsAllOverMe":"He is all over me",
+"HeavenIsAWonderfulPlace":"Heaven is a wonderful place",
+"Heil’geLiebeUnaussprechlich":"Heilge Liebe, unaussprechlich",
+"HeilGerGeistDuTrostUndRat":"Heil'ger Geist, Du Trost und Rat",
+"HeilandFuehreDuDeinKind":"Heiland, führe Du Dein Kind",
+"HeiligHeiligHeilig":"Heilig, heilig, heilig",
+"HeiligeNacht":"Heilige Nacht",
+"HellStrahlDieSonne":"Hell strahl die Sonne",
+"HerMitDemRettungsseil":"Her mit dem Rettungsseil",
+"HerbeiOIhrGlaeubigen":"Herbei, o ihr Gläubigen",
+"HerbeiOIhrGlaeubigen-Kopie":"Herbei, o ihr Gläubigen",
+"HerrBleibBeiMir":"Herr, bleib bei mir",
+"HerrDeinWort":"Herr, dein Wort",
+"HerrDerGanzenSchoepfung":"Herr der ganzen Schöpfung",
+"HerrDuBistMaechtig":"Herr du bist mächtig",
+"HerrDuGibstUnsHoffnung":"Herr, du gibst uns Hoffnung",
+"HerrHalteMichNahBeiDir":"Herr, halte mich nah bei dir",
+"HerrIchBleibBeiDir":"Herr ich bleib bei dir",
+"HerrIchSeheDeineWelt":"Herr ich sehe deine Welt",
+"HerrIchSeheDeineWelt-OhneVersB":"Herr ich sehe deine Welt",
+"HerrImGlanzDeinerMajestaet":"Herr im Glanz deiner Majestät",
+"HerrLehrUnsBeten":"Herr, lehr uns beten",
+"HerrOeffneDuMirDieAugen":"Herr öffne du mir die Augen",
+"HerrWeilMichFesthaelt":"Herr, weil mich festhält",
+"HerrWennDerWunsch":"Herr, wenn der Wunsch",
+"HerrWirBittenKommUndSegneUns":"Herr, wir bitten: Komm und segne uns",
+"HerrWirWissenDassDuLebst":"Herr, wir wissen, dass du lebst",
+"HerrlicheKundeVomHerrn":"Herrliche Kunde vom Herrn",
+"HerzMitOhren":"Herz mit Ohren",
+"HerzUndHerz":"Herz und Herz (mit Ãbersetzung)",
+"HeuteIstGeburtstag":"Heute ist Geburtstag",
+"HeuteWillDichJesusFragen":"Heute will dich Jesus fragen",
+"Lied":"Ð¥ÑÐ¸ÑÑÐ¾Ñ ",
+"HimmelUndDieErdeLobenGott":"Himmel und die Erde loben Gott",
+"HimmlischerVater":"Himmlischer Vater",
+"HoertDerEngelLobgesang":"Hört der Engel Lobgesang",
+"HoertHoertIhrNichtDieLieder":"Hört, hört ihr nicht die Lieder",
+"HoertIhrNichtDieWeihnachtsglocken":"Hört ihr nicht die Weihnachtsglocken",
+"HoertWieDieEngeleinSingen":"Hört, wie die Engelein singen",
+"HoertetIhrDieFroheKunde":"Hörtet ihr die frohe Kunde",
+"HorchDeinHeilandLaesstDichLaden":"Horch, dein Heiland lässt dich laden",
+"HowGreatIsOurGod":"How great is our God",
+"IAmAccepted":"I am accepted",
+"IHaveDecided":"I have decided",
+"IMSoHappy":"I'm so happy",
+"IVeGotPeaceLikeARiver":"I´ve got peace like a river",
+"IchBinBeiDir":"Ich bin bei dir",
+"IchBinEntschieden":"Ich bin entschieden",
+"IchBinErloest":"Ich bin erlöst",
+"IchBinNichtMehrSoWieIchWar":"Ich bin nicht mehr so wie ich war",
+"IchBinSoFrohFuerDenTrost":"Ich bin so froh für den Trost",
+"IchBlickeVollBeugungUndStaunen":"Ich blicke voll Beugung und Staunen",
+"IchBrauchDichAllezeit":"Ich brauch' Dich allezeit",
+"IchDankeMeinemGott":"Ich danke meinem Gott",
+"IchFreueMich":"Ich freue mich",
+"IchGebMeinLebenHin":"Ich geb' mein Leben hin",
+"IchGlaubeDirVertraueDir":"Ich glaube Dir, vertraue Dir",
+"IchKamZumHeilandBlindUndBloss":"Ich kam zum Heiland, blind und bloß",
+"IchLiebDichHerr":"Ich lieb dich, Herr",
+"IchLiebeDichHerr":"Ich liebe Dich, Herr",
+"IchLiebeHerrDeinHaus":"Ich liebe Herr, Dein Haus",
+"IchMussJesum":"Ich muss Jesum bei mir haben",
+"IchSageJaZuDir":"Ich sage Ja zu dir",
+"IchSitzeOderStehe":"Ich sitze oder stehe",
+"IchStehAnDeinerKrippeHier":"Ich steh an deiner Krippe hier",
+"IchTrauAufDichOhHerr":"Ich trau auf dich oh Herr",
+"IchVerdankeDirSovielMeinGott":"Ich verdanke dir soviel mein Gott",
+"IchWaehleDieStrasseDerHoffnung":"Ich wähle die Straße der Hoffnung",
+"IchWeissEinenStrom":"Ich weiß einen Strom",
+"IchWeissErHatMichBefreit":"Ich weiß er hat mich befreit",
+"IchWeissNicht":"Ich weiß nicht",
+"IchWeissNichtWarum":"Ich weiß nicht, warum",
+"IchWilZuDirZuDirNachHaus":"Ich will zu dir, zu dir nach Haus",
+"IchWillDich":"Ich will dich mit den Augen leiten",
+"IchWillDirDanken":"Ich will dir danken",
+"IchWillMeinenGottErheben":"Ich will meinen Gott erheben",
+"IhrSeidDasSalzDerErde":"Ihr seid das Salz",
+"ImGlaubenLeben":"Im Glauben leben",
+"ImGlaubenSehIchJesumSterben":"Im Glauben seh' ich Jesum sterben",
+"ImHimmelGibtEsManches":"Im Himmel gibt es manches",
+"ImmerAufGottZuVertrauen":"Immer auf Gott zu vertrauen",
+"ImmerMehr":"Immer mehr",
+"ImmerWiederKoenntIchSingen":"Immer wieder könnt ich singen",
+"InDeinemHausBinIchGernVater":"In deinem Haus bin ich gern",
+"InDemKreuzLiegtDieKraft":"In dem Kreuz liegt die Kraft",
+"InDemNamenJesus":"In dem Namen Jesus",
+"InDerNachtVonBethlehem":"In der Nacht von Bethlehem",
+"InDirIstMeinLeben":"In dir ist mein Leben",
+"InIhmIstAllesWasIchBrauch":"In Ihm ist alles, was ich brauch'",
+"InMomentsLikeThese":"In moments like these",
+"InsWasserFaelltEinStein":"Ins Wasser fällt ein Stein",
+"Islamseminar":"Islamseminar mit Fouad Adel",
+"IstSWahrDassJesus":"Ist's wahr, dass Jesus",
+"JaGottHatAlleKinderLieb":"Ja, Gott hat alle Kinder lieb",
+"JaHerrIchFreuMichSo":"Ja, Herr, ich freu mich so",
+"JaIchGlaubGottHoertGebet":"Ja, ich glaub, Gott hört Gebet",
+"JedesGotteskind":"Jedes Gotteskind",
+"JesuMeinesLebensLeben":"Jesu, meines Lebens Leben",
+"JesuZiehZumKreuzeMich":"Jesu, zieh zum Kreuze mich",
+"JesusAlleinSollMeinHerzeNurHaben":"Jesus allein soll mein Herze nur haben",
+"JesusChristusIstAllerHerr":"Jesus Christus ist aller Herr",
+"JesusChristusIstDerSieger":"Jesus Christus ist der Sieger",
+"JesusChristusKenntDich":"Jesus Christus kennt dich",
+"JesusChristusStarbFuerMich":"Jesus Christus starb für mich",
+"JesusDeineHaende":"Jesus, deine Hände",
+"JesusDerHerrWillMichBrauchen":"Jesus, der Herr, will mich brauchen",
+"JesusDirGehoertMeinLeben":"Jesus, dir gehört mein Leben",
+"JesusDirNachWeilDuRufst":"Jesus, dir nach, weil du rufst",
+"JesusDuBistGekroent":"Jesus, du bist gekrönt",
+"JesusDuMeine":"Jesus, du meine Sonne",
+"JesusFirst":"Jesus first",
+"JesusGehVoran":"Jesus, geh voran",
+"JesusGehtHeuteVorbei":"Jesus geht heute vorbei",
+"JesusHeilandSoTeuerMir":"Jesus Heiland, so teuer mir",
+"JesusHeisstUnsLeuchten":"Jesus heißt, uns leuchten",
+"JesusHerrIchDenkeAnDeinOpfer":"Jesus, Herr, ich denke an dein Opfer",
+"JesusHoechsterName":"Jesus, höchster Name",
+"JesusIchWillGehnSendeMich":"Jesus, ich will gehn, sende mich",
+"JesusInDeinemNamenIstKraft":"Jesus in deinem Namen ist Kraft",
+"JesusIsTheWinnerman":"Jesus is the Winnerman",
+"JesusIstEinMaechtigerHeiland":"Jesus ist ein mächtiger Heiland",
+"JesusIstImmerNochGroesser":"Jesus ist immer noch größer",
+"JesusIstMeinBesterFreund":"Jesus ist mein bester Freund",
+"JesusKomm":"Jesus komm",
+"JesusLebtMitIhmAuchIch":"Jesus lebt, mit ihm auch ich",
+"JesusLiebtMichGanzGewiss":"Jesus liebt mich ganz gewiß",
+"JesusNimmtDieSuenderAn":"Jesus nimmt die Sünder an",
+"JesusWillUnsBauNZuEinemTempel":"Jesus will uns bau'n zu einem Tempel",
+"JesusWirDankenDir":"Jesus, wir danken dir",
+"JesusWirSehenAufDich":"Jesus, wir sehen auf dich",
+"JesusZuDirKannIchSoKommen":"Jesus, zu dir kann ich so kommen",
+"JetztOVaterSegneMich":"Jetzt, o Vater, segne mich",
+"KeinLiedVonGrossenLeuten":"Kein Lied von großen Leuten",
+"KeineMachtDerWelt":"Keine Macht der Welt",
+"KeinerWeissWann":"Keiner weiß, wann",
+"KeinerWirdZuschanden":"Keiner wird zuschanden",
+"KennstDuWohlDenBrunnenDerRinnt":"Kennst du wohl den Brunnen, der rinnt",
+"KommDochUndStimmeMitMirEin":"Komm doch und stimme mit mir ein",
+"KommDochZurQuelleDesLebens":"Komm doch zur Quelle des Lebens",
+"KommHerausAusDeinerEcke":"Komm heraus aus deiner Ecke",
+"KommMitKommMit":"Komm mit, komm mit",
+"KommSagEsAllenWeiter":"Komm, sag es allen weiter",
+"KommZuDemHeiland":"Komm zu dem Heiland",
+"KommZuJesus":"Komm zu Jesus",
+"KommtSingtUnseremHerrn":"Kommt, singt unserem Herrn",
+"KommtSingtUnsermHerrn":"Kommt, singt unserm Herrn",
+"KommtStimmetAlleJubelndEin":"Kommt, stimmet alle jubelnd ein",
+"KommtUndSeht":"Kommt und seht",
+"KopfUndHerz":"Kopf und Herz",
+"LassDuMichStilleWerden":"Lass Du mich stille werden",
+"LassMichAnDichGlauben":"Lass mich an dich glauben",
+"LassMichImmerMitDirGehn":"Lass mich immer mit dir gehn",
+"LassMirDasZielVorAugenBleiben":"Lass mir das Ziel vor Augen bleiben",
+"LasstDieHerzenImmerFroehlich":"Lasst die Herzen immer fröhlich",
+"LasstUnsDankenStattZuKlagen":"Lasst uns danken statt zu klagen",
+"LasstUnsMiteinander":"Lasst uns miteinander",
+"LebenAusDerQuelle":"Leben aus der Quelle",
+"LebenImSchatten":"Leben im Schatten",
+"LehreMichGlauben":"Lehre mich glauben",
+"LetAllMortalFleshKeepSilence":"Let all mortal flesh keep silence",
+"LeuchtendStrahltDesVatersGnade":"Leuchtend strahlt des Vaters Gnade",
+"LichtDieserWelt":"Licht dieser Welt",
+"LichtLeuchtetAuf":"Licht leuchtet auf",
+"LiebeIstEinWahresZeichen":"Liebe ist ein wahres Zeichen",
+"LiessDieBibel":"Ließ die Bibel",
+"LobUndDank":"Lob und Dank",
+"LobeDenHerren":"Lobe den Herren",
+"LobeDenHerrnMeineSeele":"Lobe den Herrn, meine Seele",
+"LobpreisUndEhre":"Lobpreis und Ehre",
+"LobpreisetUnsernGott":"Lobpreiset unsern Gott",
+"LordTheLightOfYourLoveIsShining":"Lord, the light of Your love",
+"LordYouHaveMyHeart":"Lord, You have my heart",
+"LoveTheLord":"Love the Lord",
+"MachDieAugenAuf":"Mach die Augen auf",
+"MachMichHeilig":"Mach mich heilig",
+"MacheDichAufUndWerdeLicht":"Mache dich auf und werde Licht",
+"MachenWolkenDirDenHimmelTruebe":"Machen Wolken dir den Himmel trübe",
+"MachtHochDieTuer":"Macht hoch die Tür",
+"MaechtigeStroemeDesSegens":"Mächtige Ströme des Segens",
+"MagSeinDuKannstEsNichtVerstehn":"Mag sein, du kannst es nicht verstehn",
+"Majestaet":"Majestät",
+"ManErzaehlteMirFroh":"Man erzählte mir froh",
+"ManWeissNichtDieStund":"Man weiß nicht die Stund",
+"ManchmalFragIchMich":"Manchmal frag ich mich",
+"MarmorSteinUndEisenBricht":"Marmor, Stein und Eisen bricht",
+"MehrLiebenMoechtIchDich":"Mehr lieben möcht' ich Dich",
+"MehrVonDesHeilandsLiebUndGnad":"Mehr von des Heilands Lieb und Gnad",
+"MeinGlaubeFestSichBauenKann":"Mein Glaube fest sich bauen kann",
+"MeinGottUndIch":"Mein Gott und ich",
+"MeinJesusIchLiebDich":"Mein Jesus, ich lieb' Dich",
+"MeineHoffnungRuht":"Meine Hoffnung ruht",
+"MeineSchafeHoerenMeineStimme":"Meine Schafe hören meine Stimme",
+"MeineZeitStehtInDeinenHaenden":"Meine Zeit steht in deinen Händen",
+"MeinstDuWirklichEsGenuegt":"Meinst du wirklich es genügt",
+"MenschenBrauchenGott":"Menschen brauchen Gott",
+"MightyToSave":"Mighty to save",
+"MitAllenDingen":"Mit allen Dingen",
+"MitAllerKraft":"Mit aller Kraft",
+"MitDenHirten":"Mit den Hirten",
+"MitJesusLebenDasIstFreude!":"Mit Jesus leben, das ist Freude!",
+"MitMeinemLeben":"Mit meinem Leben",
+"Morgenstern":"Morgenstern",
+"MussIchGehen":"Muss ich gehen",
+"MySaviorMyGod":"My Savior My God",
+"NachDirOHerr":"Nach dir, o Herr",
+"NaeherMeinGottZuDir":"Näher, mein Gott, zu dir",
+"NaehmeIchFluegelDerMorgenroete":"Nähme ich Flügel der Morgenröte",
+"Ndidzakutamandani":"Ndidzakutamandani",
+"NehmtEinanderAn":"Nehmt einander an",
+"NichtDurchZufallStehIchHier":"Nicht durch Zufall steh ich hier",
+"NichtImLautenBeten":"Nicht im lauten Beten",
+"NichtsHabeIch":"Nichts habe ich",
+"NiemandIstSoTreuUndGut":"Niemand ist so treu und gut",
+"NimmDuMichGanzHin":"Nimm Du mich ganz hin",
+"NimmJesuMeineHaende":"Nimm Jesu meine Hände",
+"NimmMeinLeben":"Nimm mein Leben",
+"NimmstDuMichNochEinmalAn":"Nimmst du mich noch einmal an",
+"NochDringtJesuFroheBotschaft":"Noch dringt Jesu frohe Botschaft",
+"NunDanketAlleGott":"Nun danket alle Gott",
+"NunIstSieErschienen":"Nun ist sie erschienen",
+"NurDeineLiebeHerr":"Nur deine Liebe Herr",
+"NurEinMenschAufDerGanzenWelt":"Nur ein Mensch auf der ganzen Welt",
+"NurMitJesus":"Nur mit Jesus",
+"NurVoran":"Nur voran",
+"ODieTiefeLiebeJesu":"O, die tiefe Liebe Jesu",
+"ODuFroehliche":"O du fröhliche",
+"OGnadeGottesAmazingGrace":"O Gnade Gottes (Amazing Grace)",
+"OGottDirSeiEhre":"O Gott dir sei Ehre",
+"OGottMeinGott":"O Gott, mein Gott",
+"OGottSeiGelobt":"O Gott, sei gelobt",
+"OHauptVollBlutUndWunden":"O Haupt voll Blut und Wunden",
+"OHerrVerweileBeiUns":"O Herr, verweile bei uns",
+"OIchArmerSuender":"O ich armer Sünder",
+"OKeinFreundDerMichLiebtWieJesus":"O, kein Freund",
+"OLasstUnsMitJauchzenErheben":"O lasst uns mit Jauchzen erheben",
+"OLiebeGoldNerSonnenschein":"O Liebe, gold'ner Sonnenschein",
+"OLiebeWieGross":"O Liebe, wie groß",
+"OMeinJesu!DuBist`sWert":"O mein Jesus! Du bist`s wert",
+"OWelcheLiebeMussteGottDochHaben":"O welche Liebe",
+"OeffneMirDieAugen":"Öffne mir die Augen",
+"OftHab’IchAngstVorDerZukunft":"Oft hab ich Angst vor der Zukunft",
+"OhneDich":"Ohne dich",
+"OhneDichWaerenWirVerloren":"Ohne dich wären wir verloren",
+"OhneWegOhneLichtOhneHilfe":"Ohne Weg, ohne Licht, ohne Hilfe",
+"OnceAgain":"Once again",
+"OpenTheEyesOfMyHeart":"Open the eyes of my heart",
+"OpenUpTheHeavensGate":"Open up the heavens gate",
+"OurGodIsAnAwesomeGod":"Our God is an awesome God",
+"PassAufKleinesAugeWasDuSiehst!":"Pass auf, kleines Auge, was du siehst!",
+"PreistGottInDerHoehe":"Preist Gott in der Höhe",
+"Psalm5":"Die auf dich vertrauen",
+"Regenbogen":"Regenbogen",
+"RufeZuGottFruehAmMorgen":"Rufe zu Gott früh am Morgen",
+"SIstLebenImBlickeZumKreuzeHin":"'S ist Leben im Blicke zum Kreuze hin",
+"SagJaZuGottesWegen":"Sag ja zu Gottes Wegen",
+"SagNichtNein":"Sag nicht nein",
+"SagWoWohntDerLiebeGott":"Sag, wo wohnt der liebe Gott?",
+"SagtEsLaut":"Sagt es laut",
+"SanftInDerErdeRuht":"Sanft in der Erde ruht",
+"SchalleWiederImHoehernChor":"Schalle wieder im höhern Chor",
+"SchalomGottesFriedeFuerDieWelt":"Schalom, Gottes Friede für die Welt",
+"SchnellerImmerSchneller":"Schneller, immer schneller",
+"SchoensterHerrJesu":"SchÃ¶nster Herr Jesu",
+"SchoepferAllerHimmel":"Schöpfer aller Himmel",
+"SehetUndSchmecket":"Sehet und schmecket",
+"SehtMalMeinenRegenschirm":"Seht mal meinen Regenschirm",
+"SeiEinLebend´gerFisch":"Sei ein lebend´ger Fisch",
+"SeiStill":"Sei still",
+"SeidFroehlichInDerHoffnung":"Seid fröhlich in der Hoffnung",
+"SeinNamHeisstWunderbar":"Sein Nam heißt Wunderbar",
+"SeitIchMitJesusGehe":"Seit ich mit Jesus gehe",
+"SeitNachGottesReichIchTrachte":"Seit nach Gottes Reich ich trachte",
+"SeligstesWissenJesusIstMein!":"Seligstes Wissen: \"JESUS IST MEIN!\"",
+"SendRevival":"Send revival",
+"SieBandenJesuHaende":"Sie banden Jesu Hände",
+"SiegendSchreitetJesus":"Siegend schreitet Jesus",
+"SiegesfuerstDuEhrenkoenig":"Siegesfürst, Du Ehrenkönig",
+"SingHallelujaUnsermHerrn":"Sing Halleluja unserm Herrn",
+"SingMitLobeDenHerrn":"Sing mit, lobe den Herrn",
+"SingMitMirEinHalleluja":"Sing mit mir ein Halleluja",
+"SmileAtTheStorm":"Smile at the Storm",
+"SoIstVersoehnung":"So ist Versöhnung",
+"SoSindDeineWorte":"So sind deine Worte",
+"SoWieIchBinSoMussEsSein":"So wie ich bin, so muß es sein",
+"SolangMeinJesusLebt":"Solang mein Jesus lebt",
+"SonneMondUndSterne":"Sonne, Mond und Sterne",
+"SprichOHerr":"Sprich o Herr",
+"StaerkeMeineHaende":"Stärke meine Hände",
+"StehtAufUndLobtUnsernGott":"Steht auf und lobt unsern Gott",
+"SternAufDenIchSchaue":"Stern, auf den ich schaue",
+"SternUeberBethlehem":"Stern über Bethlehem",
+"StilleNacht":"Stille Nacht",
+"StilleNachtHeiligeNacht":"Stille Nacht, heilige Nacht",
+"StilleVorDirMeinVater":"Stille vor dir, mein Vater",
+"SucheJesusNichtImReichDerToten":"Suche Jesus nicht im Reich der Toten",
+"SuchtDuEinenFreund":"Sucht du einen Freund",
+"TeurerHeiland":"Teurer Heiland",
+"TheLameMan":"The lame man",
+"ThereIsNoneLikeYou":"There is none like You",
+"ThyWord":"Thy word",
+"TiefInMir":"Tief in mir",
+"TiefInMirBrenntEinFeuer":"Tief in mir brennt ein Feuer",
+"TieferTieferInDieLiebeJesu":"Tiefer, tiefer in die Liebe Jesu",
+"TochterZionFreueDich":"Tochter Zion, freue dich",
+"TrachtetZuerstNachGottesReich":"Trachtet zuerst nach Gottes Reich",
+"TradingMySorrows":"Trading my sorrows",
+"TrauAufDenHerrn":"Trau auf den Herrn",
+"TreuTreuTreu":"Treu, treu, treu",
+"UngeteiltesHerz":"Ungeteiltes Herz",
+"UnserHeilandIstNunDa":"Unser Heiland ist nun da",
+"UnserHerrSagtUnsInSeinemWort":"Unser Herr sagt uns in seinem Wort",
+"VaterOVater":"Vater, o Vater",
+"UnserMundDerIstVollJubel":"Unser Mund, der ist voll Jubel",
+"UnserVaterInDemHimmel":"Unser Vater in dem Himmel",
+"UnserenAugenVerborgen":"Unseren Augen verborgen",
+"UnterDemSchirmDesHoechsten":"Unter dem Schirm des Höchsten",
+"VaterDeineLiebe":"Vater, Deine Liebe",
+"VaterDesLebens":"Vater des Lebens",
+"VaterDesLichts":"Vater des Lichts",
+"VaterIchKommeJetztZuDir":"Vater, ich komme jetzt zu dir",
+"VaterIchWillDichPreisen":"Vater, ich will dich preisen",
+"VaterIchWillDirDanken":"Vater, ich will dir danken",
+"VaterImHimmel":"Vater im Himmel",
+"VaterUnserVater":"Vater, unser Vater",
+"VereintDurchJesuTodAmKreuz":"Vereint durch Jesu Tod am Kreuz",
+"VergissEsNie":"Vergiss es nie",
+"VergissNichtZuDanken":"Vergiss nicht zu danken",
+"VieleWegeGibtEsAufDieserWelt":"Viele Wege gibt es auf dieser Welt",
+"VomAufgangDerSonne":"Vom Aufgang der Sonne",
+"VonGanzemHerzen":"Von ganzem Herzen",
+"VonGnadeUndRecht":"Von Gnade und Recht",
+"VonGutenMaechten":"Von guten Mächten",
+"VonMeinemJesuWillIchSingen":"Von meinem Jesu will ich singen",
+"VonObenVonUnten":"Von oben, von unten",
+"VorGottesThron":"Vor Gottes Thron",
+"WasGottVerheissen":"Was Gott verheißen",
+"WasMachtMichVonSuendenRein":"Was macht mich...",
+"WegenDirSindWirHier":"Wegen Dir sind wir hier",
+"WehrlosUndVerlassenSehntSich":"Wehrlos und verlassen",
+"WeilIchJesuSchaefleinBin":"Weil ich Jesu Schäflein bin",
+"WeinenMoechtIch":"Weinen möcht' ich",
+"WeisstDuEigentlichWohin":"Weißt du eigentlich, wohin?",
+"WelchEinFreundIstUnserJesus":"Welch ein Freund ist unser Jesus",
+"WelchGlueckIstSErloestZuSein":"Welch Glück ist's, erlöst zu sein",
+"WelcheLiebeWelcheGuete":"Welche Liebe welche GÃ¼te",
+"WelchenJubelWelcheFreude":"Welchen Jubel welche Freude",
+"WennDerHeiland":"Wenn der Heiland",
+"WennDieAndernMichVerlachen":"Wenn die andern mich verlachen",
+"WennDuManchmalGanzAlleineBist":"Wenn du manchmal ganz alleine bist",
+"WennEndlichUnserLeben":"Wenn endlich unser Leben",
+"WennFriedeMitGott":"Wenn Friede mit Gott",
+"WennIchBedenke":"Wenn ich bedenke",
+"WennIchDeineHerrlichkeitBestaune":"Wenn ich deine Herrlichkeit bestaune",
+"WennLebensstuermeTosen":"Wenn Lebensstürme tosen",
+"WennMorgensInDenTagIchGeh":"Wenn morgens in den Tag ich geh",
+"WennNachDerErdeLeid":"Wenn nach der Erde Leid",
+"WennWirVollendet":"Wenn wir vollendet",
+"WennWirWandeln":"Wenn wir wandeln im Herrn",
+"WennZerstoertDieGanzeWelt":"Wenn zerstört die ganze Welt",
+"WerAufGottVertraut":"Wer auf Gott vertraut",
+"WerDaWillDerNehme":"Wer da will, der nehme",
+"WerDasWasserInDerWuesteKennt":"Wer das Wasser in der Wüste kennt",
+"WerGottFolgtRiskiertSeineTraeume":"Wer Gott folgt...",
+"WerHatDieWeltGemacht":"Wer hat die Welt gemacht",
+"WerIstDasKind":"Wer ist das Kind",
+"WerIstWieDu":"Wer ist wie du",
+"WerJesumAmKreuzeImGlaubenErblickt":"Wer Jesum am Kreuze...",
+"WerLaesstDieSterneStrahlen":"Wer lässt die Sterne strahlen",
+"WerNurDenLiebenGottLaesstWalten":"Wer nur den lieben Gott läßt walten",
+"WerSichAufGottVerlaesst":"Wer sich auf Gott verlässt",
+"WerVonDerLiebeSingt":"Wer von der Liebe singt",
+"WhatGrace":"What Grace",
+"WhenIsraelWasInEgyptland":"When Israel was in Egyptland",
+"WhoAmI":"Who am I",
+"WhyDoYouWakeUpLove!!!":"Why do you wake up love !!!",
+"WieDerToepferNimmtDenTon":"Wie der Töpfer nimmt den Ton",
+"WieEinHischLechztNachFrischenWasser":"Wie ein Hirsch lechzt nach frischem Wasser",
+"WieEinStromVonOben":"Wie ein Strom von oben",
+"WieGrossIstDesAlmaechtGenGuete":"Wie groß ist des Almächt'gen Güte",
+"WieGrossIstMeinGott":"Wie groß ist mein Gott",
+"WieKannManJungSein":"Wie kann man jung sein...",
+"WieSehrHatGottDieWeltGeliebt":"Wie sehr hat Gott die Welt geliebt",
+"WieSichEinVaterUeberKinderErbarmt":"Wie sich ein Vater über Kinder erbarmt",
+"WieSollIchDichEmpfangen":"Wie soll ich dich empfangen",
+"WieSollteIch":"Wie sollt ich müßig bleiben",
+"WieTiefKannIchFallen":"Wie tief kann ich fallen",
+"WieTiefMussGottesLiebeSein":"Wie tief muss Gottes Liebe sein",
+"WieWirMiteinanderReden":"Wie wir miteinander reden",
+"WillkommenTagDesHerrn!":"Willkommen, Tag des Herrn!",
+"WirBegruessenDich":"Wir begrüßen dich",
+"WirFuerchtenUnsNicht":"Wir fürchten uns nicht",
+"WirMoechtenLiederSingen":"Wir möchten Lieder singen",
+"WirSindDasHaus":"Wir sind das Haus",
+"WirSindGekommen":"Wir sind gekommen",
+"WirSindHierZusammen":"Wir sind hier zusammen",
+"WirSindSoFrohDassJesusUnsLiebt":"Wir sind so froh, dass Jesus uns liebt",
+"WirSingenVonJesus":"Wir singen von Jesus",
+"WirTrauenGottesWort":"Wir trauen Gottes Wort",
+"WirVersammelnUnsZuDir":"Wir versammeln uns zu dir",
+"WirWartenAufDenHeiland":"Wir warten auf den Heiland",
+"WoIstSolchEinGott":"Wo ist solch ein Gott",
+"WoZweiOderDrei":"Wo zwei oder drei",
+"WohinGottMichFuehret":"Wohin Gott mich führet",
+"WohinSonst":"Wohin sonst",
+"WohlDemDerNichtWandelt":"Wohl dem, der nicht wandelt",
+"WonneLaecheltUeberall":"Wonne lächelt überall",
+"WuerdigUndHerrlichIstDasLamm":"Würdig und herrlich ist das Lamm",
+"WunderbarGrosserErloeser":"Wunderbar großer Erlöser",
+"WunderbarerHirt":"Wunderbarer Hirt",
+"WundervollerHeiland":"Wundervoller Heiland",
+"YouAreMyAllInAll":"You are my all in all",
+"YouReTheGodOfThisCity":"You're the God of this City",
+"ZermalmtesBrotDesLebens":"Zermalmtes Brot des Lebens",
+"ZuendeAnDeinFeuer":"Zünde an dein Feuer",
+"ZumErloeserWillIchKommen":"Zum Erlöser will ich kommen"}
