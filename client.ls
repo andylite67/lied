@@ -21,6 +21,7 @@ loadSong = (name, pos) ->
 	pos = pos || 0
 	song_name := name
 	$.get '/songs/' + name + '/' + text_type, (text) ->
+		console.log text
 		song := parseSongText text
 		showSongPart 0
 
@@ -35,10 +36,11 @@ showSongPart = (pos) ->
 
 showText = (text) ->
 	$ '#song_area' .empty!
-	$ '#song_area' .append "<span>" + text + "</span>" #span because of textfill
+	$ '#song_area' .append "<span>" + text.trim! + "</span>" #span because of textfill
 	$ '#song_area' .textfill!
 
-parseSongText = (_.split '\n\n\n' _) |> (_.map (_.split '\n\n')) |> _.flatten
+/*parseSongText = (_.split '\n\n\n' _) |> (_.map (_.split '\n\n')) |> _.flatten*/
+parseSongText = (x) -> _.split '\n\n' x
 
 #show admin song select
 initSongSelect = ->
