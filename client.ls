@@ -79,7 +79,9 @@ initSongSelect = ->
 		songLink .append "☆"
 
 emitSong = (song, pos) ->
-	socket.emit 'next_pos', [song, pos]
+	showSongPart pos
+	if isAdmin!
+		socket.emit 'next_pos', [song, pos]
 
 # load admin view
 initSongSelect!
