@@ -60,6 +60,7 @@ initSongSelect = ->
 
 	move = (count) ->
 		emitSong song_name, song_pos+count
+		showSongPart (song_pos+count)
 
 	$$ '#song_area'  .tap ->
 		move (1)
@@ -79,8 +80,7 @@ initSongSelect = ->
 		songLink .append "☆"
 
 emitSong = (song, pos) ->
-	showSongPart pos
-	if isAdmin!
+	if isAdmin
 		socket.emit 'next_pos', [song, pos]
 
 # load admin view
