@@ -57,6 +57,8 @@ initSongSelect = ->
 			event.preventDefault()
 			songName = event.target.id
 			emitSong songName, 0
+			loadSong songName, 0
+			$ "html, body" .animate {scrollTop: 0}, "fast"
 
 	move = (count) ->
 		emitSong song_name, song_pos+count
