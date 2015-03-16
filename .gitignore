@@ -1,4 +1,5 @@
 node_modules/
 app.js
 client.js
+web.js
 static/.sass-cache

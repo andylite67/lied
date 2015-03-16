@@ -98,11 +98,15 @@ initSongSelect = ->
   $ '#button_next' .click ->
     move (1)
     
-  $ '#song_area' .keydown (ev) ->
-    if ev.which == 39
-      move (1)
-      ev.preventDefault()
-
+  $ 'body' .keydown (ev) ->
+    if ev.target.id != 'search_input'
+      if ev.which == 39
+        move (1)
+        ev.preventDefault()
+      else if ev.which == 37
+        move (-1)
+        ev.preventDefault()
+    
   # show suggestions
   socket.on 'suggested_song', (data) ->
     console.log "suggestested " + song
