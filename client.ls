@@ -4,6 +4,7 @@ _ = require 'prelude-ls'
 var song 
 var song_pos 
 var song_name
+var suggested 
 
 isAdmin = -> window.location.hash.substring(1) == "admin"
 
@@ -29,7 +30,6 @@ loadSong = (name, pos) ->
 showSongPart = (pos) ->
   console.log "showSongPart: " + pos
   if typeof song == "undefined" || pos >= song.length || pos < 0
-    showText "Ende"
     $ '#song_pos' .html ""
   else
     if(pos == 0) 
@@ -73,7 +73,7 @@ list_songs = (resp) ->
 #show admin song select
 initSongSelect = ->
   $.get '/list_songs', list_songs
-    
+  suggested := ['asd']
 
   move = (count) ->
     emitSong song_name, song_pos+count
@@ -98,6 +98,7 @@ initSongSelect = ->
 
   # show suggestions
   socket.on 'suggested_song', (data) ->
+    console.log "suggestested " + song
     songLink = $ ('a#'+data)
     songLink .append "☆"
 
@@ -105,7 +106,14 @@ emitSong = (song, pos) ->
   console.log(isAdmin!)
   if isAdmin!
     socket.emit 'next_pos', [song, pos]
-
+  else
+    console.log(suggested)
+    if ($ .inArray song, suggested) >= 0
+      console.log("already suggested " + song)
+    else
+      suggested.push(song)
+      socket.emit 'suggest_song', song
+      console.log "suggest " + song
 # load admin view
 initSongSelect!
 
