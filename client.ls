@@ -22,20 +22,20 @@ socket.on 'new_pos', (data) ->
 
 
 loadSong = (name, pos) ->
+  console.log('loadSong ' + name + ' at ' +pos)  
   pos = pos || 0
   song_name := name
   res = $.get '/songs/' + name + '/' + text_type+".txt", (text) ->
-    console.log text
     $ '#song_title' .html all_songs[name]
     song := parseSongText text
-    showSongPart 0
+    showSongPart pos
   res.fail -> 
     if text_type != default_text_type
       changeTextType default_text_type
       loadSong name, pos
         
 showSongPart = (pos) ->
-  console.log "showSongPart: " + pos
+  console.log 'showSongPart: ' + pos
   if typeof song == "undefined" || pos >= song.length || pos < 0
     $ '#song_pos' .html ""
   else
@@ -135,6 +135,7 @@ $ window .load ->
   in aller Weisheit lehrt und ermahnt euch gegenseitig!<br />
   Mit Psalmen, Lobliedern und geistlichen Lieder <br />
   sing Gott in euren Herzen in Gnade (Kol 3:16)'
+
 changeTextType = (newType) ->
   text_type := newType
   $ '#text_type button' .removeClass 'active'
