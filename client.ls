@@ -1,11 +1,11 @@
 socket = io.connect()
 _ = require 'prelude-ls'
 
-var song
-var song_pos
+var song 
+var song_pos 
 var song_name
 
-isAdmin = window.location.hash.substring(1) == "admin"
+isAdmin = -> window.location.hash.substring(1) == "admin"
 
 text_type = "text.txt"
 
@@ -28,10 +28,19 @@ loadSong = (name, pos) ->
 
 showSongPart = (pos) ->
   console.log "showSongPart: " + pos
-  if pos >= song.length
+  if typeof song == "undefined" || pos >= song.length || pos < 0
     showText "Ende"
     $ '#song_pos' .html ""
   else
+    if(pos == 0) 
+      $ '#button_prev' .addClass('disabled')
+    else
+      $ '#button_prev' .removeClass('disabled')
+    if(pos < song.length - 1) 
+      $ '#button_next' .removeClass('disabled')
+    else
+      $ '#button_next' .addClass('disabled')
+      
     $ '#song_pos' .html " " + (pos+1) + " / " + song.length
     song_pos := pos
     console.log "song" + song
@@ -93,7 +102,8 @@ initSongSelect = ->
     songLink .append "☆"
 
 emitSong = (song, pos) ->
-  if isAdmin
+  console.log(isAdmin!)
+  if isAdmin!
     socket.emit 'next_pos', [song, pos]
 
 # load admin view
