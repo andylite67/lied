@@ -1,21 +1,26 @@
 # Install
-``sudp apt-get install nodejs``
-
-``sudo npm install -g supervisor LiveScript``
-
-``npm install`` # in the lied folder
+```bash
+sudp apt-get install nodejs
+sudo npm install -g supervisor LiveScript
+npm install # in the lied folder
+```
 
 
 # Develop
-``sudo gem install compass bootstrap-sass`
+```bash
+sudo gem install compass bootstrap-sass
+```
+
 
 # Server
 
-``npm install -g LiveScript forever``
 
-```mkdir ~/git/lied/
+```bash
+npm install -g LiveScript forever
+mkdir ~/git/lied/
 cd ~/git/lied/
-git init --bare```
+git init --bare
+```
 
 ## /etc/init.d/lied
 ```bash
