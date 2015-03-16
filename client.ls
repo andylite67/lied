@@ -4,11 +4,14 @@ _ = require 'prelude-ls'
 var song 
 var song_pos 
 var song_name
-var suggested 
+var suggested
+var all_songs
 
 isAdmin = -> window.location.hash.substring(1) == "admin"
 
-text_type = "text.txt"
+
+default_text_type = "text" 
+text_type = default_text_type
 
 # events to listens
 socket.on 'new_pos', (data) ->
@@ -21,12 +24,16 @@ socket.on 'new_pos', (data) ->
 loadSong = (name, pos) ->
   pos = pos || 0
   song_name := name
-  $.get '/songs/' + name + '/' + text_type, (text) ->
+  res = $.get '/songs/' + name + '/' + text_type+".txt", (text) ->
     console.log text
-    $ '#song_title' .html name
+    $ '#song_title' .html all_songs[name]
     song := parseSongText text
     showSongPart 0
-
+  res.fail -> 
+    if text_type != default_text_type
+      changeTextType default_text_type
+      loadSong name, pos
+        
 showSongPart = (pos) ->
   console.log "showSongPart: " + pos
   if typeof song == "undefined" || pos >= song.length || pos < 0
@@ -57,8 +64,8 @@ parseSongText = (x) -> _.split '\n\n' x
 list_songs = (resp) ->
   liSong = (item) ->
       "<li value=><a href='#' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
-      
-  lis = _.map liSong, (_.obj-to-pairs resp)
+  all_songs := resp    
+  lis = _.map liSong, (_.obj-to-pairs all_songs)
   lis = _.sort lis
   con =  _.fold (+), "", lis
   $ '#search_list'  .append con
@@ -118,18 +125,17 @@ emitSong = (song, pos) ->
 initSongSelect!
 
 $ window .load ->
-  showText "Lasst uns singen dem HERRN zur Ehre!<br />
+  showText 'Lasst uns singen dem HERRN zur Ehre!<br />
   <br />
   Das Wort des des Christus wohne reichlich in euch; <br />
   in aller Weisheit lehrt und ermahnt euch gegenseitig!<br />
   Mit Psalmen, Lobliedern und geistlichen Lieder <br />
-  sing Gott in euren Herzen in Gnade (Kol 3:16)"
-
-$ '#text_type button' .click ->
-  text_type := $ this .val!
-  console.log(song_pos)
-  loadSong song_name, song_pos
-
+  sing Gott in euren Herzen in Gnade (Kol 3:16)'
+changeTextType = (newType) ->
+  text_type := newType
   $ '#text_type button' .removeClass 'active'
-  $ this .addClass 'active'
-  console.log(this)
+  $ ('#text_type_' + newType) .addClass 'active'
+   
+$ '#text_type button' .click ->
+  changeTextType ($ this .val!)
+  loadSong song_name, song_pos
