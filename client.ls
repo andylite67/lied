@@ -127,9 +127,9 @@ $ window .load ->
 
 $ '#text_type button' .click ->
   text_type := $ this .val!
-  my_song_pos = ^^song_pos#todo: does not work
-  loadSong song_name
-  showSongPart my_song_pos
+  console.log(song_pos)
+  loadSong song_name, song_pos
 
   $ '#text_type button' .removeClass 'active'
   $ this .addClass 'active'
+  console.log(this)
