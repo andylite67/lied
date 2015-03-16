@@ -8,7 +8,12 @@ Dir.foreach($dir) do |item|
 	file = $dir+'/'+item+'/metadata.json'
 	if File.exists? file
 		metadata = JSON.parse(File.read file)
-		database[item] = metadata['Title']
+	
+    if(metadata.has_key? 'HasChords') 
+      database[item] = "♫ #{metadata['Title']}"
+    else
+      database[item] = metadata['Title']
+    end    
 	end
 end
 d = database.to_json.gsub("\",","\",\n\r")

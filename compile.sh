@@ -1,2 +1,2 @@
-lsc -c /home/pi/lied/client.ls 
-lsc -c /home/pi/lied/app.ls
+lsc -c client.ls 
+lsc -c app.ls

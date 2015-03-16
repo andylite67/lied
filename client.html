@@ -18,14 +18,21 @@
 	<body class="container">
 		<div class="row">
 			<div class="panel panel-default">
+        <div class="panel-heading">
+          <button type="button" class="btn btn-default" id="button_prev">Prev</button> 
+          
+          <b class="panel-title"><span id="song_title"></span><span id="song_pos"></span></b>
+          
+          <button type="button" class="btn btn-default" id="button_next">Next</button> 
+        </div>
 				<div class="panel-body" id='song_area'>
 				</div>
-			</div>
     	</div>
+    </div>
 		<div class="row">
 			<div id="text_type" class="btn-group" data-toggle-name="text_type" data-toggle="buttons-radio">
 				<button type="button" value="text.txt" data-toggle="button" class="btn active">Text</button>
-				<button type="button" value="chords.txt" data-toggle="button" class="btn">Noten</button>
+				<button type="button" value="chords.txt" data-toggle="button" class="btn">Akkorde</button>
 			</div>
 		</div>
 
