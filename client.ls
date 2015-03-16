@@ -50,7 +50,6 @@ showSongPart = (pos) ->
       
     $ '#song_pos' .html " " + (pos+1) + " / " + song.length
     song_pos := pos
-    console.log "song" + song
     showText (_.at pos, song)
 
 showText = (text) ->
