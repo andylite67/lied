@@ -87,9 +87,9 @@ initSongSelect = ->
 
   $$ '#song_area'  .tap ->
     move (1)
-  $$ '#song_area' .swipeRight ->
-    move (-1)
   $$ '#song_area' .swipeLeft ->
+    move (-1)
+  $$ '#song_area' .swipeRight ->
     move (1)
     
   $ '#button_prev' .click ->
