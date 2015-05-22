@@ -10,7 +10,7 @@ Dir.foreach($dir) do |item|
 		metadata = JSON.parse(File.read file)
 	
     if(metadata.has_key? 'HasChords') 
-      database[item] = "♫ #{metadata['Title']}"
+      database[item] = " ♫ #{metadata['Title']}"
     else
       database[item] = metadata['Title']
     end    

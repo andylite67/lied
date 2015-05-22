@@ -65,7 +65,8 @@ list_songs = (resp) ->
       "<li value=><a href='#' id='"+(_.first item)+"'>"+(_.last item) + "</a></li>"
   all_songs := resp    
   lis = _.map liSong, (_.obj-to-pairs all_songs)
-  lis = _.sort lis
+  
+  lis = _.sort-with lis
   con =  _.fold (+), "", lis
   $ '#search_list'  .append con
   $ '#search_input' .fastLiveFilter '#search_list', {maxFontSize: 70}
